@@ -1,75 +1,123 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>币圈</title>
+    <meta charset="utf-8" />
+    <title>个人简历 - 吕由</title>
     <style>
-      #headings {
-        text-align: center;
-        font-family: "Times New Roman", Times, serif;
-        font-size: 70px;
-        margin: 40px;
-        background-color: orange;
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
       }
-      dt {
-        text-align: start;
-        font-family: "Times New Roman", Times, serif;
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #f6f6f1;
+        /* background-image: url("https://w0.peakpx.com/wallpaper/837/840/HD-wallpaper-streams-from-banner-peak-mountain-stream-rocks-snow.jpg"); */
+      }
+      .header h1 {
+        margin: 0;
+      }
+      .header img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #b9bdb8;
+        border-bottom: 1px solid #dee2e6;
+        font-family: "KaiTi", sans-serif;
+        padding: 0 2rem;
+      }
 
-        font-size: medium;
+      nav a {
+        color: #343a40;
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin-right: 0;
+        padding: 1rem;
+        border-radius: 0;
+        transition: all 0.2s ease-in-out;
       }
 
-      li {
-        text-align: left;
-        font-family: "Times New Roman", Times, serif;
-        font-size: medium;
+      nav a:hover {
+        background-color: #343a40;
+        color: #fff;
       }
-      h4 {
-        text-align: center;
-        background-color: black;
-        font-family: "Times New Roman", Times, serif;
-        border-radius: 10cap;
-        background-position: 10cm;
-        color: white;
-        margin: 100px;
-        padding: 5px;
+
+      .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
       }
-      a[href="https://wwww.baidu.com"] {
-        color: red;
+      .content h2 {
+        margin-top: 0;
+        text-decoration: underline;
+      }
+      .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 45%;
+      }
+      .intro p {
+        margin: 0.5rem 0;
+      }
+      .media {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+      .media img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+      .media video {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
       }
     </style>
   </head>
   <body>
-    <h1 id="headings">Daily Tools</h1>
+    <div class="header">
+      <img src="" alt="d" />
+      <h1>来去自由风，想念自相逢。</h1>
+    </div>
+    <div class="container">
+      <nav>
+        <a href="#">关于我</a>
+        <a href="#">翻译作品集</a>
+        <a href="#">博客文章</a>
+        <a href="#">联系信息</a>
 
-   
-    <div style="display: flex">
-      <div>
-        <h4>融资信息：</h4>
-        <ul style="list-style-type: circle">
-          <li><a href="https://wwww.baidu.com">wodetian</a></li>
-          <li>Bananas</li>
-          <li>Lemons</li>
-          <li>Oranges</li>
-        </ul>
-      </div>
+      </nav>
+      <div class="content">
+        <div class="intro">
+            <h2>基本信息</h2>
 
-      <div>
-        <h4>融资信息：</h4>
-        <ul style="list-style-type: circle">
-          <li><a href="https://wwww.baidu.com">wodetian</a></li>
-          <li>Bananas</li>
-          <li>Lemons</li>
-          <li>Oranges</li>
-        </ul>
+
+          <p></p>
+          <p></p>
+         
+            <h2>教育背景</h2>
+            <ul>
+
+            </ul>
+        
+          
       </div>
-      <div>
-        <h4>融资信息：</h4>
-        <ul style="list-style-type: circle">
-          <li><a href="https://wwww.baidu.com">wodetian</a></li>
-          <li>Bananas</li>
-          <li>Lemons</li>
-          <li>Oranges</li>
-        </ul>
-      </div>
+      
     </div>
   </body>
 </html>
